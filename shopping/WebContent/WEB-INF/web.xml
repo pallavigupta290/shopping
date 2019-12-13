@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>shopping</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Registercontroller</display-name>
+    <servlet-name>Registercontroller</servlet-name>
+    <servlet-class>com.controller.Registercontroller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Registercontroller</servlet-name>
+    <url-pattern>/Registercontroller</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Logincontroller</display-name>
+    <servlet-name>Logincontroller</servlet-name>
+    <servlet-class>com.controller.Logincontroller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Logincontroller</servlet-name>
+    <url-pattern>/Logincontroller</url-pattern>
+  </servlet-mapping>
+</web-app>
